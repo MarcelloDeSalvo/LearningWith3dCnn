@@ -11,8 +11,9 @@ For a comprehensive understanding of the dataset and its preprocessing procedure
 Benjamin Puccio, James P Pooley, John S Pellman, Elise C Taverna, R Cameron Craddock, The preprocessed connectomes project repository of manually corrected skull-stripped T1-weighted anatomical MRI data, GigaScience, Volume 5, Issue 1, December 2016, s13742–016–0150–5, https://doi.org/10.1186/s13742-016-0150-5
 
 ### Contents
-- `3D_CNN_SkullStripping.ipynb`: Jupyter notebook providing a detailed example of using 3D CNN for skull stripping in human brain images.
+- `ADLMM_3D_cnn_SkullStripping.ipynb`: Jupyter notebook providing a detailed example of using 3D CNN for skull stripping in human brain images.
 - `skull_stripping_net.h5`: Trained 3D CNN model weights for skull stripping.
+- `residual_skull_stripping_net.h5`: Trained 3D Residual CNN model weights for skull stripping.
 
 ## Prerequisites
 To run the example notebook, ensure you have the following dependencies installed:
